@@ -8,7 +8,7 @@ import DataComponent from './DataComponent'
 
 const PeopleList = ({data}) =>
 <ol className="people-list">
-    {data.map((person,i) => {
+    {data.results.map((person,i) => {
         const {first,last} =person.name 
     return <li key={i}>{first} {last}</li>
     })}

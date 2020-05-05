@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import PeopleList from './PeopleList'
 import RandomMeUsers from './RandomMeUsers'
+import CountryDropDown from './CountryDropDown'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
