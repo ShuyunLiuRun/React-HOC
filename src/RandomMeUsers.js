@@ -18,7 +18,7 @@ const RandomMeUsers = DataComponent(
                         PeopleList,
                         "https://randomuser.me/api/"
 )
-
+console.log("Render1")
 render(
     <RandomMeUsers count={10} />,
     document.getElementById('people-list')

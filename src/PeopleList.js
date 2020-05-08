@@ -33,7 +33,7 @@ class PeopleList extends React.Component{
         return <li key={i}>{first} {last}</li>
         })}
       </ol>
-  }
+  } 
 }
 
 // render(
