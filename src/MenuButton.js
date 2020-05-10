@@ -3,12 +3,13 @@ import Expandable from './Expandable'
 import {render} from 'react-dom'
 
 class MenuButton extends React.Component{
-    componentWillReceiveProps(nextProps){
-         const collapsed = 
-            (nextProps.collapsed && nextProps.collapsed === true) ?
-                true : false
-            this.setState({collapsed})
-    }
+    //例子中有这个生命周期函数。但是删除之后程序无影响
+    // componentWillReceiveProps(nextProps){
+    //      const collapsed = 
+    //         (nextProps.collapsed && nextProps.collapsed === true) ?
+    //             true : false
+    //         this.setState({collapsed})
+    // }
 
      render(){
          const {children, collapsed, txt, expandCollapse} = this.props
