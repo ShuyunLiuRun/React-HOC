@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import RandomMeUsers from './RandomMeUsers'
 import CountryDropDown from './CountryDropDown'
 import HiddenMessages from './HiddenMessages'
+import PopupButton from './MenuButton'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
